@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----Tailwind and daisy ul-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!---Fonts manrope-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <!----Font Awasome-->
+  <script src="https://kit.fontawesome.com/1fc9b545ed.js" crossorigin="anonymous"></script>
+  <!----Tailwind custome color-->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <title>Tea house</title>
+  <style>
+    .font-manrope {
+      font-family: 'manrope';
+    }
+  </style>
+</head>
+<header class="container bg-auto">
+  <div class="hero min-h-screen bg-base-200">
+    <div class="hero-content flex-col lg:flex-row">
+
+      <div>
+        <h1 class="text-5xl font-extra-bold">It's good <br>
+          tea time at The
+          <br>
+          Tea House
+        </h1>
+        <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="btn btn-primary">Explore more</button>
+      </div>
+      <div>
+        <img src="./images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
+        <div class="flex items-center  gap-4">
+          <i class="fa-solid fa-star text-5xl" style="color: #FFD43B;"></i>
+          <div>
+            <h3 class="text-3xl">5.00</h3>
+            <p>Trust Pilot Ratings</p>
+          </div>       
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<body class="font-manrope">
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>
